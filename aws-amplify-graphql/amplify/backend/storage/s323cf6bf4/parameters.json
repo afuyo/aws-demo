@@ -1,0 +1,9 @@
+{
+    "bucketName": "awsamplifygraphql1cd39c0b3d9c4fa3a89dd3f98994601b",
+    "authPolicyName": "s3_amplify_23cf6bf4",
+    "unauthPolicyName": "s3_amplify_23cf6bf4",
+    "authRoleName": "awsamplifygraphql-20181218142613-authRole",
+    "unauthRoleName": "awsamplifygraphql-20181218142613-unauthRole",
+    "authPermissions": "rw",
+    "unauthPermissions": "r"
+}
