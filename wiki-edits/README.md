@@ -58,3 +58,16 @@ Schema exampls with namespace
 ```
 
 
+```
+ ./bin/kafka-avro-console-producer \
+         --broker-list localhost:9092 --topic TNKU054 \
+         --property value.schema='{"namespace":"kommune","type":"record","name":"Data", "fields":[{"name":"KOMMUNE_KODE","type":["null","string"],"default":null},{"name":"KOMMUNE_NAVN","type":["null","string"],"default":null},{"name":"KOMMUNE_SOEGENAVN","type":["null","string"],"default":null},{"name":"FRA_DATO","type":["null","string"],"default":null},{"name":"UDGAAET_DATO","type":["null","string"],"default":null}]}' \
+         --property schema.registry.url=http://localhost:8081
+
+```
+
+
+```json
+  {"KOMMUNE_KODE":{"string":"956"},"KOMMUNE_NAVN":{"string":"XXX"},"KOMMUNE_SOEGENAVN":{"string":"XXX"},"FRA_DATO":{"string":"xxxxx"},"UDGAAET_DATO":{"string":"ffff"}}
+
+```
