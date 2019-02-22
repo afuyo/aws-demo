@@ -7,7 +7,14 @@ java -jar avro-tools-1.8.1.jar compile schema  kommune.avsc .
 
 Schema exampls with namespace 
 ```json
-{"namespace":"kommune","type":"record","name":"Data","fields":[{"name":"KOMMUNE_KODE","type":["null","string"],"default":null},{"name":"KOMMUNE_NAVN","type":["null","string"],"default":null},{"name":"KOMMUNE_SOEGENAVN","type":["null","string"],"default":null},{"name":"FRA_DATO","type":["null","string"],"default":null},{"name":"UDGAAET_DATO","type":["null","string"],"default":null}]}
+{"namespace":"kommune",
+"type":"record",
+"name":"Data",
+"fields":[{"name":"KOMMUNE_KODE","type":["null","string"],"default":null},
+{"name":"KOMMUNE_NAVN","type":["null","string"],"default":null},
+{"name":"KOMMUNE_SOEGENAVN","type":["null","string"],"default":null},
+{"name":"FRA_DATO","type":["null","string"],"default":null},
+{"name":"UDGAAET_DATO","type":["null","string"],"default":null}]}
 
 ```
 
