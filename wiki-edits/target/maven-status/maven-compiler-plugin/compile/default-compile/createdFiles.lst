@@ -1,3 +1,10 @@
-wikiedits/WikipediaAnalysis$2.class
-wikiedits/WikipediaAnalysis$1.class
-wikiedits/WikipediaAnalysis.class
+wikiedits\DataRecord$1.class
+wikiedits\Headers$Builder.class
+wikiedits\Data$Builder.class
+wikiedits\Data.class
+wikiedits\DataRecord$Builder.class
+wikiedits\Headers.class
+wikiedits\Headers$1.class
+wikiedits\DataRecord.class
+wikiedits\Data$1.class
+wikiedits\operation.class
